@@ -1,0 +1,51 @@
+type: flying
+description: Fires piercing missiles at enemies. It's Google Gemini, okay?
+speed: 2
+accel: 0.05
+drag: 0.04
+flying: true
+hitSize: 7
+health: 150
+armor: 0
+lowAltitude: false
+name: "Gemini"
+shadowElevationScl: 0.1
+range: 20
+maxRange: 20
+drawCell: false
+outlines: true
+engines: [
+  {
+    x: 0
+    y: 0
+    radius: 1
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 0
+    mirror: true
+    alternate: true
+    reload: 50
+    rotate: false
+    shootSound: missile
+    shoot: {
+      shots: 5
+      shotDelay: 7.5
+    }
+    bullet: {
+      type: MissileBulletType
+      speed: 4
+      lifetime: 30
+      damage: 10
+      width: 2
+      height: 5
+      trailWidth: 1
+      trailLength: 3
+      pierce: true
+      shrinkX: 0
+      shrinkY: 0
+    }
+  }
+]
