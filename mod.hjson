@@ -1,0 +1,7 @@
+name: geminidustry
+displayName: GeminiDustry
+description: A joke mod made to add the Google Gemini logo as a unit.
+author: Yekaterina
+minGameVersion: 146
+version: 0.1
+repo: m-yeka/geminidustry
